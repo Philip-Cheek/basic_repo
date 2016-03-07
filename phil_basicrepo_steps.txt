@@ -1,0 +1,33 @@
+1. Went to github, created basic_repo
+
+then:
+
+Philips-MacBook-Pro:branching_merging philipcheek$ cd ..
+Philips-MacBook-Pro:Coding_Dojo philipcheek$ mkdir basic_repo
+Philips-MacBook-Pro:Coding_Dojo philipcheek$ cd basic_repo
+Philips-MacBook-Pro:basic_repo philipcheek$ touch index.html
+Philips-MacBook-Pro:basic_repo philipcheek$ touch css.html
+Philips-MacBook-Pro:basic_repo philipcheek$ touch phil_basicrepo_steps.txt
+Philips-MacBook-Pro:basic_repo philipcheek$ git init
+Initialized empty Git repository in /Users/philipcheek/Desktop/Coding_Dojo/basic_repo/.git/
+Philips-MacBook-Pro:basic_repo philipcheek$ add .
+-bash: add: command not found
+Philips-MacBook-Pro:basic_repo philipcheek$ git add .
+Philips-MacBook-Pro:basic_repo philipcheek$ git commit -m"commiting files"
+[master (root-commit) f5dbea7] commiting files
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 css.html
+ create mode 100644 index.html
+ create mode 100644 phil_basicrepo_steps.txt
+Philips-MacBook-Pro:basic_repo philipcheek$ git remote add origin https://github.com/Philip-Cheek/basic_repo.git
+Philips-MacBook-Pro:basic_repo philipcheek$ git push -u origin master
+Username for 'https://github.com': Philip-Cheek
+Password for 'https://Philip-Cheek@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 255 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Philip-Cheek/basic_repo.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.

@@ -2,6 +2,7 @@
 
 then:
 
+2. create local repo
 Philips-MacBook-Pro:branching_merging philipcheek$ cd ..
 Philips-MacBook-Pro:Coding_Dojo philipcheek$ mkdir basic_repo
 Philips-MacBook-Pro:Coding_Dojo philipcheek$ cd basic_repo
@@ -19,6 +20,8 @@ Philips-MacBook-Pro:basic_repo philipcheek$ git commit -m"commiting files"
  create mode 100644 css.html
  create mode 100644 index.html
  create mode 100644 phil_basicrepo_steps.txt
+
+3. push repo to github
 Philips-MacBook-Pro:basic_repo philipcheek$ git remote add origin https://github.com/Philip-Cheek/basic_repo.git
 Philips-MacBook-Pro:basic_repo philipcheek$ git push -u origin master
 Username for 'https://github.com': Philip-Cheek
@@ -31,3 +34,9 @@ Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/Philip-Cheek/basic_repo.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
+
+4. pushlocal change to master repo
+Philips-MacBook-Pro:basic_repo philipcheek$ git add .
+Philips-MacBook-Pro:basic_repo philipcheek$ git commit -m"updated text file"
+Philips-MacBook-Pro:basic_repo philipcheek$ git push origin master
+
